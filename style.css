@@ -1,0 +1,12 @@
+header{
+    display:flex;
+    background-color: rgb(76, 134, 223);
+    flex-direction: row;
+    align-items: center;
+    padding: 1.2vw;
+}
+
+.button{
+    display: flex;
+    align-items: right;
+}
