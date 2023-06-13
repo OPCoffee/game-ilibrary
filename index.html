@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
     </div>
     <div class="content"></div>
     <div class="form">
-        <form class="formContainer">
+        <div class="formContainer">
 
             <div class="input">
                 <label for="title">Title</label>
@@ -33,14 +34,12 @@
                 <input type="number" id ="hoursPlayed" required />
             </div>
             <div>
-                <label for="notCompleted">Not yet Completed</label>
-                <input type="radio" id="notComplete" name="completedOrNot" value ="Not yet completed">
                 <label for="completed">Completed</label>
-                <input type="radio" id="completed" name="completedOrNot" value ="Completed">
-
-
+                <input type="checkbox" id="completed" name="completed" value ="Completed">
             </div>
-        </form>
+            <button class="submit" type="submit">Submit</button>
+            <button class="cancel" type="button">Cancel</button>
+        </div>
     </div>
 </body>
 </html>

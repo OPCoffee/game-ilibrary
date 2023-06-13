@@ -10,3 +10,23 @@ header{
     display: flex;
     align-items: right;
 }
+
+.form{
+    display: none;
+    width:400px;
+}
+
+
+.formContainer{
+    width: 100%;
+    padding: 8vw;
+    font-size: 1.5rem;
+    flex-flow: column nowrap;
+    background-color: #1c8585;
+    text-align: center;
+    color:aliceblue;
+}
+
+.input{
+    padding: .25em;
+}
